@@ -38,7 +38,6 @@ img{
   }
   .blue{
     background-color: #DBECFF;
-    ;
     border: 1px solid black;
     width: 680px;
     height: 410px;
@@ -98,6 +97,22 @@ img{
   }
   .yellow{
     background-color:#FFEFD7;
+    margin-left: 37px;
+    border: 1px solid black;
+    width: 680px;
+    height: 410px;
+    box-shadow: 0px 4px 4px 0px #00000040;    
+  }
+  .blueright{
+    background-color:#DBECFF;
+    margin-left: 37px;
+    border: 1px solid black;
+    width: 680px;
+    height: 410px;
+    box-shadow: 0px 4px 4px 0px #00000040;    
+  }
+  .greyright{
+    background-color:#CBD7E4;
     margin-left: 37px;
     border: 1px solid black;
     width: 680px;
