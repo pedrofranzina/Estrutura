@@ -1,6 +1,7 @@
-body{
+html, body{
     margin: 0 auto;
     padding: 0 auto;
+
 }
 .topo{
     font-family: "Inter", sans-serif;
@@ -44,12 +45,15 @@ h2{
     align-items: center;
     justify-content: center;
     gap: 40px;
+
 }
 .white1{
     height: 480px;
     width: 700.46px;
     background-color: white;
     box-shadow: 0px 6.37px 12.74px 0px #73808D1F;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .white2{
@@ -60,8 +64,8 @@ h2{
 }
 .blue2{
     background-color: #DBECFF;
-    width: 1920px;
-    height: 1948px;
+    /* width: 1920px;
+    height: 1948px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,6 +76,7 @@ h2{
     width: 1440px;
     background-color: white;
     box-shadow: 0px 13.09px 26.18px 0px #73808D1F;
+    margin: 120px 240px 120px 240px;
 }
 .results{
     margin: 160px 574px 161px 240px;
@@ -107,8 +112,6 @@ li{
     background-color: #F4F6FC;
 }
 .project{
-    /* width: 960px;
-    height: 200px; */
     background-color: #F4F6FC;
     font-family: "Inter", sans-serif;
 
