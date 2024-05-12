@@ -157,6 +157,15 @@ button{
   font-family: "Inter", sans-serif;
   padding: 6px;
 }
+button:hover{
+  background-color: #FFEFD7;
+  font-size: 22px;
+  
+  }
+  a:hover{
+    background-color: #FFEFD7;
+    
+  }
 a{
   text-decoration: none;
   color: black;
