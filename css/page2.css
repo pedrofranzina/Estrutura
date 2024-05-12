@@ -1,0 +1,139 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.topo{
+    font-family: "Inter", sans-serif;
+    width: 1440px;
+    height: 284px;
+    margin-top: 160px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 160px;
+}
+.topo h1{
+    color: #101214;  
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: 1px;
+}
+.topo p{ 
+    color: #73808D;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+}
+h2{
+    width: 1440px;
+    height: 52px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: 52px;
+    letter-spacing: 1px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.blue{
+    background-color: #DBECFF;
+    width: 1920px;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.white1{
+    height: 480px;
+    width: 700.46px;
+    background-color: white;
+    box-shadow: 0px 6.37px 12.74px 0px #73808D1F;
+}
+
+.white2{
+    height: 480px;
+    width: 700.46px;
+    background-color: white;
+    box-shadow: 0px 6.37px 12.74px 0px #73808D1F;
+}
+.blue2{
+    background-color: #DBECFF;
+    width: 1920px;
+    height: 1948px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.white3{
+    height: 1008px;
+    width: 1440px;
+    background-color: white;
+    box-shadow: 0px 13.09px 26.18px 0px #73808D1F;
+}
+.results{
+    margin: 160px 574px 161px 240px;
+}
+h3{
+    width: 153px;
+    height: 52px;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 52px;
+    letter-spacing: 1px;
+}
+ul{
+    width: 1106px;
+    height: 171px;
+}
+li{
+    list-style: none;
+    color: #73808D;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+}
+.footer{
+    width: 1920px;
+    height: 200px;
+    display: flex;
+
+}
+.project{
+    width: 960px;
+    height: 200px;
+    background-color: #F4F6FC;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+
+}
+.split{
+    width: 2px;
+    height: 200px;
+    background-color: #E7ECF4;
+}
+.span1{
+    font-weight: 700;
+    font-size: 28px;
+    font-weight: 42px;
+    letter-spacing: 1px;
+    width: 249px;
+    height: 42px;
+    margin: 79px 355px 79px 356px; 
+}
+.span2{
+    font-weight: 700;
+    font-size: 28px;
+    font-weight: 42px;
+    letter-spacing: 1px;
+    width: 249px;
+    height: 42px;
+    margin: 79px 405px 79px 359px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
