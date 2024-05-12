@@ -100,14 +100,18 @@ li{
     width: 1920px;
     height: 200px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F6FC;
 }
 .project{
-    width: 960px;
-    height: 200px;
+    /* width: 960px;
+    height: 200px; */
     background-color: #F4F6FC;
     font-family: "Inter", sans-serif;
-    align-items: center;
+
 
 }
 .split{
@@ -116,22 +120,24 @@ li{
     background-color: #E7ECF4;
 }
 .span1{
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 28px;
     font-weight: 42px;
     letter-spacing: 1px;
     width: 249px;
     height: 42px;
-    margin: 79px 355px 79px 356px; 
+    margin: 79px 355px 79px 356px;
 }
 .span2{
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 28px;
     font-weight: 42px;
     letter-spacing: 1px;
-    width: 249px;
+    width: 196px;
     height: 42px;
-    margin: 79px 405px 79px 359px; 
+    margin: 79px 405px 79px 359px;
 }
 a{
     text-decoration: none;
