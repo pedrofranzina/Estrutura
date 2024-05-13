@@ -3,7 +3,7 @@ html, body{
     padding: 0 auto;
 }
 .container {
-    width: 75.46%;
+    width: 100%;
     margin: 0 auto;
   }
 .topo{
@@ -89,16 +89,17 @@ li{
     letter-spacing: 0.5px;
 }
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-color: #F4F6FC;
+   background-color: #F4F6FC;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .project{
     background-color: #F4F6FC;
     font-family: "Inter", sans-serif;
+    flex-direction: column;
+    margin: 0 auto;
+
 }
 .split{
     width: 2px;
@@ -111,7 +112,7 @@ li{
     font-size: 28px;
     font-weight: 42px;
     letter-spacing: 1px;
-    margin: 79px 355px 79px 356px;
+    /* margin: 79px 355px 79px 356px; */
 }
 .span2{
     font-family: "Inter", sans-serif;
@@ -119,7 +120,7 @@ li{
     font-size: 28px;
     font-weight: 42px;
     letter-spacing: 1px;
-    margin: 79px 405px 79px 359px;
+    /* margin: 79px 405px 79px 359px; */
 }
 a{
     text-decoration: none;
