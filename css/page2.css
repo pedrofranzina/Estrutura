@@ -1,15 +1,14 @@
 html, body{
     margin: 0 auto;
     padding: 0 auto;
-
 }
+.container {
+    width: 75.46%;
+    margin: 0 auto;
+  }
 .topo{
     font-family: "Inter", sans-serif;
-    width: 1440px;
-    height: 284px;
     margin-top: 160px;
-    margin-left: 240px;
-    margin-right: 240px;
     margin-bottom: 160px;
 }
 .topo h1{
@@ -18,6 +17,9 @@ html, body{
     font-size: 64px;
     line-height: 84px;
     letter-spacing: 1px;
+}
+.row{
+    margin: 140px 0px 120px 0px;
 }
 .topo p{ 
     color: #73808D;
@@ -39,47 +41,32 @@ h2{
 }
 .blue{
     background-color: #DBECFF;
-    width: 1920px;
-    height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
-
-}
-.white1{
-    height: 480px;
-    width: 700.46px;
-    background-color: white;
-    box-shadow: 0px 6.37px 12.74px 0px #73808D1F;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.white2{
-    height: 480px;
-    width: 700.46px;
-    background-color: white;
-    box-shadow: 0px 6.37px 12.74px 0px #73808D1F;
 }
 .blue2{
     background-color: #DBECFF;
-    /* width: 1920px;
-    height: 1948px; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.white3{
-    height: 1008px;
-    width: 1440px;
-    background-color: white;
-    box-shadow: 0px 13.09px 26.18px 0px #73808D1F;
-    margin: 120px 240px 120px 240px;
+.columnmid1{
+  margin-bottom: 120px;
+}
+.columnfirst{
+    margin: 120px 0px 120px 0px;
+}
+.columnlast{
+    margin:120px 0px 120px 0px;
 }
 .results{
     margin: 160px 574px 161px 240px;
+    justify-content: center;
+    flex-direction: column;
+
 }
 h3{
     width: 153px;
@@ -102,8 +89,6 @@ li{
     letter-spacing: 0.5px;
 }
 .footer{
-    width: 1920px;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,8 +99,6 @@ li{
 .project{
     background-color: #F4F6FC;
     font-family: "Inter", sans-serif;
-
-
 }
 .split{
     width: 2px;
@@ -128,8 +111,6 @@ li{
     font-size: 28px;
     font-weight: 42px;
     letter-spacing: 1px;
-    width: 249px;
-    height: 42px;
     margin: 79px 355px 79px 356px;
 }
 .span2{
@@ -138,8 +119,6 @@ li{
     font-size: 28px;
     font-weight: 42px;
     letter-spacing: 1px;
-    width: 196px;
-    height: 42px;
     margin: 79px 405px 79px 359px;
 }
 a{
