@@ -17,9 +17,6 @@ html, body{
     line-height: 84px;
     letter-spacing: 1px;
 }
-.row{
-    margin: 140px 0px 120px 0px;
-}
 .topo p{ 
     color: #73808D;
     font-weight: 400;
@@ -38,12 +35,23 @@ h2{
     margin-left: 240px;
     margin-right: 240px;
 }
-.blue{
+.container2{
     background-color: #DBECFF;
+    width: 100%;
+}
+.central{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 40px;
+
+}
+.row{
+    margin: 120px 0px 140px 0px;
+    width: 50%;
+}
+.center{
+    margin: 0 auto;
+    width: 75%;
+
 }
 .blue2{
     background-color: #DBECFF;
