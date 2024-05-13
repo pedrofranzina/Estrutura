@@ -8,8 +8,7 @@ html, body{
   }
 .topo{
     font-family: "Inter", sans-serif;
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: 160px 0px 160px 240px;
 }
 .topo h1{
     color: #101214;  
@@ -99,7 +98,6 @@ li{
     font-family: "Inter", sans-serif;
     flex-direction: column;
     margin: 0 auto;
-
 }
 .split{
     width: 2px;
