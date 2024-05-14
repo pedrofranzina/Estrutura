@@ -1,0 +1,132 @@
+html {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #cfcfcf;
+}
+
+.contenter {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    margin: 71px 93px 0px 93px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    padding: 88px 0px 72px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    padding: 0% 11% 3% 11%;
+    margin: 0 auto;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video iframe {
+    Width: 1140px;
+    Height: 643px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 71px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 86%;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 115px;
+}
+
+table tbody td {
+    border-top: 3px solid black;
+    padding: 4px;
+}
+
+footer {
+    margin-top: 0px;
+
+    background-color: #463738;
+
+}
+
+footer ul {
+    margin: 0px;
+    list-style: none;
+    padding: 109px 0px 69px 93px;
+}
+
+footer li {
+    padding: 36px 0px 36px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #fff;
+}
+
+.social a {
+    width: 24px;
+}
+
+.network {
+    display: flex;
+    padding-left: 93px;
+    gap: 12px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #fff;
+
+    padding: 50px 0px 47px 93px;
+}
+
+#menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #fff;
+}
