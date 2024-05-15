@@ -104,7 +104,12 @@ footer li {
 }
 
 .social a {
-    width: 24px;
+
+}
+
+.social i {
+    color: #fff;
+    font-size: 24px;
 }
 
 .network {
@@ -133,7 +138,19 @@ p {
 }
 
 .newsletter {
+  /*
     margin: 109px 0px 0px 756px;
+    */
+    width: 50%;
+}
+
+.newsletter-content {
+  padding: 109px 0px;
+}
+
+
+.all {
+  width: 50%;
 }
 
 .split {
