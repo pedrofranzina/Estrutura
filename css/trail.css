@@ -119,8 +119,7 @@ p {
     font-size: 24px;
     line-height: 28.13px;
     color: #fff;
-    margin: 0
-;
+    margin: 0;
 
     padding: 50px 0px 47px 93px;
 }
@@ -131,4 +130,64 @@ p {
     font-size: 32px;
     line-height: 37.5px;
     color: #fff;
+}
+
+.newsletter {
+    margin: 109px 0px 0px 756px;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+#newsl {
+    padding: 36px 0px 36px 0px;
+}
+
+input[type=email],
+select {
+    width: 411px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+::placeholder {
+    color: #BEBBBB;
+}
+.privacy{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #fff;
+    margin: 18px 0px 26px 0px;
+}
+input[type=checkbox] {
+width: 18px;
+height: 18px;
+}
+button{
+    background-color: #78E053;
+    color: white;
+    width: 411px;
+    height: 50px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+.sobre{
+    padding: 4px 0px 0px 0px;
+}
+.resultados{
+    padding-bottom: 0px;
+}
+.anterior{
+    padding-bottom: 0px;
 }
