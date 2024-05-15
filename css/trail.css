@@ -33,7 +33,6 @@ h1 {
     font-size: 64px;
     line-height: 75px;
     padding: 88px 0px 72px 0px;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -133,9 +132,6 @@ p {
 }
 
 .newsletter {
-  /*
-    margin: 109px 0px 0px 756px;
-    */
     width: 50%;
 }
 
@@ -194,6 +190,9 @@ button{
     font-size: 24px;
     line-height: 28.13px;
 }
+button:hover{
+    background-color: #6bc949;
+}
 .sobre{
     padding: 4px 0px 0px 0px;
 }
@@ -202,4 +201,71 @@ button{
 }
 .anterior{
     padding-bottom: 0px;
+}
+
+/* trail2 */
+.secondcenter{
+    display: flex;
+    flex: row;
+}
+.trail2left{ 
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+        padding-left: 61px;
+        padding-top:99px;
+        padding-right: 109px
+}
+.trail2right{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+        padding-top: 223px;
+        padding-right: 92px;
+}
+.trail2h1 {
+    text-align: left;
+    padding: 0px 0px 49px 14px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+.trail2p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.57px;
+    padding: 0px 0px 55px 14px;
+
+    color: #000;
+}
+.hike {
+    /* width: 570px;
+    height: 428px; */
+    width: 100%;
+    height: auto;
+}
+.spana{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.28px;
+}
+.spanb{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.57px;
+    color: #8D8282;
+}
+.duracao{
+    padding: 56px 0px 30px 0px;
+}
+.distancia{
+    padding: 30px 0px 18px 0px ;
+}
+.tempo{
+    padding-top: 14px;
 }
