@@ -215,6 +215,7 @@ button:hover {
 .secondcenter {
     display: flex;
     flex: row;
+    padding-bottom: 40px;
 }
 
 .trail2left {
@@ -294,7 +295,8 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
-.eventos2{
+
+.eventos2 {
     display: flex;
     flex-direction: row;
 }
@@ -303,9 +305,14 @@ button:hover {
     border: none;
     height: 4px;
     margin: 2px 0px;
-    background: linear-gradient(to right, green 10%, rgb(226, 225, 225) 10%);
+    background: linear-gradient(to right, #009B7B 10%, rgb(226, 225, 225) 10%);
 }
-.hr2{
+
+.hr11 {
+    padding: 10px 0px 30px 0px;
+}
+
+.hr2 {
     border: none;
     margin: 2px 0px;
     height: 4px;
@@ -324,49 +331,184 @@ button:hover {
     flex-direction: column;
     width: 20%;
 }
-.group1{
+
+.group1 {
     width: 80%;
     padding: 0px;
     position: relative;
 }
-.next{
+
+.next {
+    padding-top: 44px;
+    padding-bottom: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.line {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.adjust {
+    background-color: #009B7B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.word {
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    padding: 30px 70px;
+}
+
+.firstlinespan {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.secondlinespan {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.thirdlinespan {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.forthlinespan {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.green img{
+    width: 50px;
+    height: auto;
+}
+
+.month {
+    color: #009B7B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23.57px;
+}
+
+.days {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23.57px;
+}
+
+.month2 {
+    color: #009B7B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 23.57px;
+}
+
+.days2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23.57px;
+}
+
+.bigdate {
     padding-top: 20px;
 }
-.green{
-    width: 416px;
-    height: 832px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+
+.smalldate {
+    padding-top: 5px;
 }
-.green span{
-    display: block;
-    border: 1px solid black;
-    color: white;
-    background-color: green;
-    box-sizing: border-box;
+
+.minus2 {
+    color: #B5B5B5;
+    font-size: 30px;
 }
-.firstlinespan{
-    padding: 10% 50%;
+
+.minus {
+    padding-top: 8px;
 }
-.secondline{
-    display: flex;
-    gap: 2px;
+
+.proximos {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
 }
-.secondlinespan{
-    padding: 5% 16.89%;  
+
+.program {
+    text-align: left;
+    color: #6B6B6B;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0px 0px 0px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    font-size: 23px;
+    font-weight: 700;
 }
-.thirdline{
-    display: flex;
-    gap: 2px;
-}
-.thirdlinespan{
-    padding: 5% 6.89%;  
-}
-.forthline{
-    display: flex;
-    gap: 2px;
-}
-.forthlinespan{
-    padding: 5% 6.89%;  
+
+.location {
+    color: #AFAFAF;
+    font-family: 'Roboto', sans-serif;
+    margin: 2px 0px 20px 0px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 100;
 }
