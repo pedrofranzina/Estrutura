@@ -101,6 +101,7 @@ footer li {
     line-height: 28.13px;
     color: #fff;
 }
+
 .social i {
     color: #fff;
     font-size: 24px;
@@ -136,12 +137,12 @@ p {
 }
 
 .newsletter-content {
-  padding: 109px 0px;
+    padding: 109px 0px;
 }
 
 
 .all {
-  width: 80%;
+    width: 80%;
 }
 
 .split {
@@ -167,7 +168,8 @@ select {
 ::placeholder {
     color: #BEBBBB;
 }
-.privacy{
+
+.privacy {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -175,11 +177,13 @@ select {
     color: #fff;
     margin: 18px 0px 26px 0px;
 }
+
 input[type=checkbox] {
-width: 18px;
-height: 18px;
+    width: 18px;
+    height: 18px;
 }
-button{
+
+button {
     background-color: #78E053;
     color: white;
     width: 411px;
@@ -190,39 +194,46 @@ button{
     font-size: 24px;
     line-height: 28.13px;
 }
-button:hover{
+
+button:hover {
     background-color: #6bc949;
 }
-.sobre{
+
+.sobre {
     padding: 4px 0px 0px 0px;
 }
-.resultados{
+
+.resultados {
     padding-bottom: 0px;
 }
-.anterior{
+
+.anterior {
     padding-bottom: 0px;
 }
 
 /* trail2 */
-.secondcenter{
+.secondcenter {
     display: flex;
     flex: row;
 }
-.trail2left{ 
+
+.trail2left {
     display: flex;
     flex-direction: column;
     width: 64%;
-        padding-left: 61px;
-        padding-top:99px;
-        padding-right: 109px
+    padding-left: 61px;
+    padding-top: 99px;
+    padding-right: 109px
 }
-.trail2right{
+
+.trail2right {
     display: flex;
     flex-direction: column;
     width: 36%;
-        padding-top: 223px;
-        padding-right: 92px;
+    padding-top: 223px;
+    padding-right: 92px;
 }
+
 .trail2h1 {
     text-align: left;
     padding: 0px 0px 49px 14px;
@@ -232,7 +243,8 @@ button:hover{
     font-size: 64px;
     line-height: 75px;
 }
-.trail2p{
+
+.trail2p {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -241,31 +253,120 @@ button:hover{
 
     color: #000;
 }
+
 .hike {
     /* width: 570px;
     height: 428px; */
     width: 100%;
     height: auto;
 }
-.spana{
+
+.spana {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 28.28px;
 }
-.spanb{
+
+.spanb {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 23.57px;
     color: #8D8282;
 }
-.duracao{
+
+.duracao {
     padding: 56px 0px 30px 0px;
 }
-.distancia{
-    padding: 30px 0px 18px 0px ;
+
+.distancia {
+    padding: 30px 0px 18px 0px;
 }
-.tempo{
+
+.tempo {
     padding-top: 14px;
+}
+
+.eventos {
+    width: 60%;
+    padding: 54px 0px 0px 14px;
+    display: flex;
+    flex-direction: column;
+}
+.eventos2{
+    display: flex;
+    flex-direction: row;
+}
+
+.hr1 {
+    border: none;
+    height: 4px;
+    margin: 2px 0px;
+    background: linear-gradient(to right, green 10%, rgb(226, 225, 225) 10%);
+}
+.hr2{
+    border: none;
+    margin: 2px 0px;
+    height: 4px;
+    background-color: rgb(226, 225, 225);
+}
+
+.dates {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.group {
+    padding-left: 14px;
+    flex-direction: column;
+    width: 20%;
+}
+.group1{
+    width: 80%;
+    padding: 0px;
+    position: relative;
+}
+.next{
+    padding-top: 20px;
+}
+.green{
+    width: 416px;
+    height: 832px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.green span{
+    display: block;
+    border: 1px solid black;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+}
+.firstlinespan{
+    padding: 10% 50%;
+}
+.secondline{
+    display: flex;
+    gap: 2px;
+}
+.secondlinespan{
+    padding: 5% 16.89%;  
+}
+.thirdline{
+    display: flex;
+    gap: 2px;
+}
+.thirdlinespan{
+    padding: 5% 6.89%;  
+}
+.forthline{
+    display: flex;
+    gap: 2px;
+}
+.forthlinespan{
+    padding: 5% 6.89%;  
 }
