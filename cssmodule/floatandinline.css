@@ -1,0 +1,59 @@
+body{
+    width: 95%;
+}
+h1 {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77.45px;
+}
+
+.container {
+    display: flex;
+    height: 88px;
+}
+
+.green {
+    width: 191px;
+    background-color: #ACF414;
+}
+
+.purple {
+    width: 191px;
+    background-color: #7A54E6;
+}
+
+.pink {
+    width: 191px;
+    background-color: #CC1298;
+}
+
+.grey {
+    width: 669px;
+    background-color: #D9D9D9;
+}
+.second{    
+    margin-top: 199px;
+}
+nav{
+    height: 88px;
+    background-color: #EEFFFF;
+    border: 1px solid #3172EF;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 67px;
+    align-items: center;
+    margin: 22.5px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+#home{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+}
