@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.pai{
+    width: 500px;
+    height: 500px;
+    background-color: deepskyblue;
+    margin: 100px auto;
+    position: relative;
+}
+.filho{
+    width: 100px;
+    height: 100px;
+    background-color: #FFCC00;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.square1{
+    width: 100px;
+    height: 100px;
+    background-color: #FFCC00;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    top: 50px;
+    left: 50px;
+}
+.square3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 15;
+}

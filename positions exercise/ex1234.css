@@ -1,0 +1,127 @@
+.orange{
+    margin: 250px auto;
+    background-color: #FA7B7B;
+    width: 183px;
+    height: 172px;
+    position: relative;
+    border: 3px solid #2400FF;
+}
+
+.orangesmall{
+    background-color: #FA7B7B;
+    ;
+    width: 115px;
+    height: 108px;
+    margin: 100px auto;
+    border: 3px solid #2400FF;
+    position: absolute;
+    left: 0;
+    top: -270px;
+}
+.orangeson{
+    width: 88px;
+    height: 83px;
+    border: 3px solid #2400FF;
+    border-top: none;
+    border-left: none;
+}
+
+.orange2{
+    margin: -200px auto;
+    background-color: #FA7B7B;
+    width: 183px;
+    height: 172px;
+    border: 3px solid #2400FF;
+    position: relative;
+}
+.orangecenter{
+    width: 88px;
+    height: 83px;
+    border: 3px solid #2400FF;
+    margin: 41.5px auto;
+}
+/*ex2*/
+.secondorange{
+    background-color: #FA7B7B;
+    width: 137px;
+    height: 129px;
+    margin: 300px auto;
+    border: 3px solid #2400FF;
+}
+.blue{
+    background-color:#5135FE;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: -150px auto;
+    position: absolute;
+}
+.grey{
+    background-color:#C4C4C4;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 32px 36px;
+}
+
+/*ex3*/
+ 
+.red{
+    background-color:#5F20C6;
+    width: 140px;
+    height: 170px;
+    border: 30px solid #E05858;
+    box-sizing: border-box;
+    margin: 100px auto;
+    position: relative;
+
+}
+.green{
+    background-color:#5F20C6;
+    width: 140px;
+    height: 170px;
+    border: 15px solid #78B45C;
+    box-sizing: border-box;
+    top: 140px;
+    left: -30px;
+    position: relative;
+}
+.circle{
+    background-color: #3DA4B2;
+    width: 114px;
+    height: 115px;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px; 
+}
+/*ex4*/
+.red1{
+    background-color:#5F20C6;
+    width: 140px;
+    height: 170px;
+    border: 30px solid #E05858;
+    box-sizing: border-box;
+    margin: 100px auto;
+    position: relative;
+
+}
+.green1{
+    background-color:#5F20C6;
+    width: 140px;
+    height: 170px;
+    border: 15px solid #78B45C;
+    box-sizing: border-box;
+    top: 70px;
+    left: -30px;
+    position: relative;
+}
+.circle1{
+    background-color: #3DA4B2;
+    width: 114px;
+    height: 115px;
+    border-radius: 50%;
+    position: absolute;
+    top: 95px; 
+    left: -2px;
+}
