@@ -1,0 +1,92 @@
+.green1{
+    width: 261px;
+    height: 287px;
+    background-color: #89BA21;
+    position: absolute;
+    top: 109px;
+    left: 168px;
+    border: 1px solid black;
+    box-sizing: border-box;    
+}
+.green2{
+    width: 261px;
+    height: 287px;
+    background-color: #AFE241;
+    position: absolute;
+    top: 210px;
+    left: 278px;
+    z-index: 10;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.green3{
+    width: 261px;
+    height: 287px;
+    background-color: #89BA21;
+    position: absolute;
+    top: 353px;
+    left: 409px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+/*ex6*/
+.green{
+    width: 261px;
+    height: 287px;
+    background-color:#AFE241;
+    position: absolute;
+    top: 159px;
+    left: 337px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.darkgreen{
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background-color: #177D15;
+    position: absolute;
+    top: 233px;
+    left: 576px;
+}
+.blue{
+    width: 133px;
+    height: 291px;
+    background-color: #4FB9A6;
+    position: absolute;
+    top: 163px;
+    left: 673px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 50;
+}
+.purple{
+    width: 374px;
+    height: 331px;
+    background-color:#9148CB;
+    position: absolute;
+    top: 303px;
+    left: 467px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 20;
+}
+.red{
+    width: 600px;
+    height: 116px;
+    background-color:#CE1A1A;
+    position: absolute;
+    top: 396px;
+    left: 381px;
+    z-index: 30;
+}
+.circlered{
+    width: 116px;
+    height: 116px;
+    background-color:#CE1A1A;
+    position: absolute;
+    top:396px ;
+    left: 921px;
+    border-radius: 50%;
+}
