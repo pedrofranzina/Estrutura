@@ -1,0 +1,62 @@
+/*ex7*/
+.both{
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 161px;
+    display: flex;
+    gap: 346px;
+}
+.squaregreen{
+    background-color: #AFE241;
+    width: 261px;
+    height: 287px;
+    border: 1px solid black;
+}
+.squarepink{
+    background-color: #E241BF;
+    width: 261px;
+    height: 287px;
+    border: 1px solid black;
+}
+
+.squaregreen:hover{
+    background-color: #E241BF;
+}
+.squarepink:hover{
+    background-color: #AFE241;
+}
+
+/*ex8*/
+.buttons{
+    align-items: center;
+    padding-top: 161px;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+}
+button{
+    width: 877px;
+    height: 137px;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77.45px;
+}
+.buttongreen{
+    background-color: #AFE241;
+
+}
+.buttonpink{
+    color: white;
+    background-color: #E241BF;
+}
+.buttongreen:hover{
+    background-color: #E241BF;
+    color: white;
+}
+.buttonpink:hover{
+    background-color: #AFE241;
+    color: black;
+    
+}
