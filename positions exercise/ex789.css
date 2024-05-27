@@ -1,5 +1,5 @@
 /*ex7*/
-.both{
+.both {
     display: inline-block;
     margin: 0 auto;
     justify-content: center;
@@ -7,35 +7,39 @@
     display: flex;
     gap: 346px;
 }
-.squaregreen{
+
+.squaregreen {
     background-color: #AFE241;
     width: 261px;
     height: 287px;
     border: 1px solid black;
 }
-.squarepink{
+
+.squarepink {
     background-color: #E241BF;
     width: 261px;
     height: 287px;
     border: 1px solid black;
 }
 
-.squaregreen:hover{
+.squaregreen:hover {
     background-color: #E241BF;
 }
-.squarepink:hover{
+
+.squarepink:hover {
     background-color: #AFE241;
 }
 
 /*ex8*/
-.buttons{
+.buttons {
     align-items: center;
     padding-top: 161px;
     display: flex;
     flex-direction: column;
     gap: 98px;
 }
-button{
+
+button {
     width: 877px;
     height: 137px;
     font-family: Inter, sans-serif;
@@ -43,20 +47,134 @@ button{
     font-size: 64px;
     line-height: 77.45px;
 }
-.buttongreen{
+
+.buttongreen {
     background-color: #AFE241;
 
 }
-.buttonpink{
+
+.buttonpink {
     color: white;
     background-color: #E241BF;
 }
-.buttongreen:hover{
+
+.buttongreen:hover {
     background-color: #E241BF;
     color: white;
 }
-.buttonpink:hover{
+
+.buttonpink:hover {
     background-color: #AFE241;
     color: black;
-    
+}
+
+/*ex9*/
+nav {
+    width: 95%;
+    height: 75px;
+    border: 1px solid #000;
+    background-color: #AFE241;
+    display: flex;
+    gap: 12%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav div {
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+    padding: 20px 0px;
+}
+
+section {
+    width: 16%;
+    height: 248px;
+    background-color: #E241BF;
+    border: 1px solid #000;
+    padding: 10px 0px;
+    padding-left: 10px;
+    margin-left: 41px;
+}
+
+section div {
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+    color: white;
+    padding: 6px 10px 20px 10px;
+}
+
+.hide1 {
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 8px;
+}
+
+.menu1:hover .hide1 {
+    display: block;
+}
+
+.menu2:hover .hide2 {
+    display: block;
+}
+
+.menu3:hover .hide3 {
+    display: block;
+}
+
+.men    u4:hover .hide4 {
+    display: block;
+}
+
+.menu5:hover .hide5 {
+    display: block;
+}
+
+.menu6:hover .hide6 {
+    display: block;
+}
+
+.hide2 {
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 20%;
+}
+
+.hide3 {
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 36%;
+}
+
+.hide4 {
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 52%;
+}
+
+.hide5 {
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 68%;
+}
+
+.hide6 {
+    position: relative;
+    display: none;
+    width: 260px;
+
+    top: 160px;
+    /* left: 84%; */
+}
+.menu66:hover{
+    position: relative;
 }
