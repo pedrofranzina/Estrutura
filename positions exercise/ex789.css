@@ -30,6 +30,41 @@
     background-color: #AFE241;
 }
 
+.both2 {
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 161px;
+    display: flex;
+    gap: 346px;
+}
+
+.squaregreen2 {
+    background-color: #AFE241;
+    width: 261px;
+    height: 287px;
+    border: 1px solid black;
+}
+
+.squarepink2 {
+    background-color: #E241BF;
+    width: 261px;
+    height: 287px;
+    border: 1px solid black;
+}
+
+.squaregreen2:hover {
+    background-color: #E241BF;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.squarepink2:hover {
+    background-color: #AFE241;
+    border-radius: 50%;
+    transition: 1s;
+}
+
 /*ex8*/
 .buttons {
     align-items: center;
@@ -112,7 +147,7 @@ section div {
     position: absolute;
     display: none;
     top: 84px;
-    left: 8px;
+    left: 12px;
 }
 
 .menu1:hover .hide1 {
@@ -127,7 +162,7 @@ section div {
     display: block;
 }
 
-.men    u4:hover .hide4 {
+.menu4:hover .hide4 {
     display: block;
 }
 
@@ -168,13 +203,8 @@ section div {
 }
 
 .hide6 {
-    position: relative;
+    position: absolute;
     display: none;
-    width: 260px;
-
-    top: 160px;
-    /* left: 84%; */
-}
-.menu66:hover{
-    position: relative;
+    top: 84px;
+    left: 84%;
 }
