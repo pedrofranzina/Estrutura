@@ -1,0 +1,28 @@
+nav{
+    width: 95%;
+    height: 75px;
+    border: 1px solid #000;
+    background-color: #AFE241;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+}
+.first{
+    list-style: none;
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+    padding: 20px 0px;
+    display: flex;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 200px;
+    display: flex;
+    list-style: none;
+}

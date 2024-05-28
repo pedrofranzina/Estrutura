@@ -6,6 +6,7 @@ nav {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    position: absolute;
 }
 ul{
     margin: 0;
@@ -22,63 +23,20 @@ li{
     line-height: 38.73px;
     padding: 20px 0px;
 }
-section {
-    height: 248px;
+nav ul div{
     background-color: #E241BF;
     border: 1px solid #000;
-    display: inline-block;
-}
-.li1{
     position: relative;
-}
-
-.hide1{
-    padding: 0px 100px;
-    position: relative;
-    top: 16px;
-}
-.hide2{
-    position: relative;
-    top: 16px;
-}
-.hide3{
-
-    position: relative;
-    top: 16px;
-}
-.hide4{
-
-    position: relative;
-    top: 16px;
-}
-.hide5{
-
-    position: relative;
-    top: 16px;
-}
-.hide6{
-
-    position: relative;
-    top: 16px;
-}
-section{
+    top: 84px;
+    left: 0px;
     display: none;
 }
-.li1:hover .hide1{
-    display: block;
+.hiding{
+    position: relative;
 }
-.li2:hover .hide2{
-    display: block;
-}
-.li3:hover .hide3{
-    display: block;
-}
-.li4:hover .hide4{
-    display: block;
-}
-.li5:hover .hide5{
-    display: block;
-}
-.li6:hover .hide6{
-    display: block;
+li:hover .hiding{
+    color: white;
+    width: 300px;
+    display: inline-block;
+    position: relative;
 }
