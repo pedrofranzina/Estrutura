@@ -1,7 +1,86 @@
-header{
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    display: flex;
     width: 100%;
     height: 41px;
     background-color: #075D9B;
-    border-left:10px solid #E3072D;
     box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+li {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18.15px;
+}
+
+.nasaandcar {
+    width: 70%;
+    margin: 78px 15% 0px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.both {
+    width: 33%;
+}
+
+.both h1 {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+
+.both p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.73px;
+    color: #8a8a8a;
+}
+
+.image {
+    border-radius:%;
+    justify-content: flex-end;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.world {
+    width: 100%;
+    padding-top: 26px;
+}
+
+.text {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.23px;
+}
+
+.final {
+    width: 46%;
+    margin: 33px 0px 100px 200px;
+}
+
+.text p {
+    padding-bottom: 6px;
+}
+
+.temu {
+    justify-content: center;
+    display: flex;
 }
