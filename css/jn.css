@@ -53,11 +53,6 @@ li {
     color: #8a8a8a;
 }
 
-.image {
-    border-radius:%;
-    justify-content: flex-end;
-    box-shadow: 10px 10px 5px lightblue;
-}
 .world {
     width: 100%;
     padding-top: 26px;

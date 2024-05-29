@@ -96,6 +96,7 @@ button {
 .buttongreen:hover {
     background-color: #E241BF;
     color: white;
+    transition: 1s;
 }
 
 .buttonpink:hover {

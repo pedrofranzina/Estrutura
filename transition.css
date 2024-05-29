@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box:hover{
+    color: white;
+    background-color: black;
+    transition: 2s linear 1s;
+    margin-left: 50px;
+}
