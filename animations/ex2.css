@@ -1,0 +1,61 @@
+body, html{
+    width: 96%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 120em; 
+}
+div{
+    background-color: #AFE241;
+    height: 6rem;
+    width: 6rem;
+    border: 1px solid black;
+    position: relative;
+    top: 40em;
+    left: 0em;
+}
+
+@keyframes changing {
+    25%{
+        border-radius: 0%;
+        background-color: #AFE241;
+        border: 1px solid black;
+        height: 6em;
+        width: 6em;
+        top: 19.5em;
+        left: 27.5em;
+        transform-origin: bottom left;
+        transform: rotate(60deg)
+    }
+    
+    50% {
+        top: 5em;
+        left: 45em;
+        width: 12em;
+        height: 12em;
+        border-radius: 50%;
+        background-color: #0000004D;
+    }
+    75%{
+        height: 9em;
+        width: 9em;
+        background-color: #4178E2;
+        border: 1px solid black;
+        top: 25.5em;
+        left: 67.5em;
+    }
+
+    100% {
+        left: 90em;
+        width: 18em;
+        height: 18em;
+        background-color: #e241bf;
+        border: 1px solid black;
+        
+    }
+}
+
+.animation{
+    animation: changing;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+}

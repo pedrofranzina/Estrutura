@@ -1,0 +1,94 @@
+body {
+    padding-top: 10em;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9em;
+    font-weight: 800;
+    padding: 10.5em 0em 1em 0em;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.image1 {
+    height: 18em;
+    width: 12em;
+    border-radius: 6%;
+    background-image: url(https://picsum.photos/600/300?random=1!);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.image2 {
+    height: 18em;
+    width: 12em;
+    border-radius: 6%;
+    background-image: url(https://picsum.photos/600/300?random=2!);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+
+.image3 {
+    height: 18em;
+    width: 24em;
+    border-radius: 6%;
+    background-image: url(https://picsum.photos/600/300?random=3!);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.image4 {
+    height: 18em;
+    width: 18em;
+    border-radius: 6%;
+    background-image: url(https://picsum.photos/600/300?random=4!);
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.first:hover {
+    color: red;
+    font-size: 20px;
+}
+
+h1:hover {
+    color: red;
+
+}
+
+h2:hover {
+    color: red;
+}
+
+.second:hover {
+    transition: ;
+    color: red;
+    font-size: 20px;
+}
+
+.third:hover {
+    color: red;
+    font-size: 20px;
+}
+
+.fourth:hover {
+    color: red;
+    font-size: 20px;
+}
