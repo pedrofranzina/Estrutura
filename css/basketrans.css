@@ -1,0 +1,23 @@
+.field {
+    width: 10%;
+    height: 100%;
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
+}
+
+.ball {
+    background-color: orangered;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.shadow{
+    position: relative;
+    top: 500px;
+    background-color: rgb(212, 212, 212);
+    width: 8em;
+    height: 2em;
+    border-radius: 50%;
+}
