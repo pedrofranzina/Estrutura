@@ -78,24 +78,25 @@ h2{
     color: red;
     top:180px;
     left: 180px;    
-    transition: all 0.1s linear;
+    transition: all 0.2s ease;
 }
 .second:hover{
     font-size: 1.2em;
     top:180px;
     left: 500px;
-    transition: all 0.1s linear;
+    transition: all 0.2s ease;
 }
 .third:hover{
     font-size: 1.2em;
     top:180px;
     left: 790px;
-    transition: all 0.1s linear;
+    transition: all 0.2s ease;
 }
 .fourth:hover{
     font-size: 1.2em;
     top:180px;
     left: 1340px;
+    transition: all 0.2s ease;
 }
 .first:hover h1,
 .first:hover h2 {
