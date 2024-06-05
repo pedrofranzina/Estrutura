@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.first{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: all 200ms linear;
+}
+.second{
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    transition: all 200ms linear;
+}
+.third{
+    position: absolute;
+    top: 200px;
+    left: 840px;
+    transition: all 200ms linear;
+}
+.fourth{
+    position: absolute;
+    top: 200px;
+    left: 1360px;
+    transition: all 200ms linear;
+}
+.image1{
+    height: 18.5em;
+    width: 13em;
+    border-radius: 5%;
+    background-image: url(https://picsum.photos/600/300?random=1!);
+    top: 20px;
+    background-size: cover;
+}
+.image2{
+    height: 18.5em;
+    width: 12em;
+    border-radius: 5%;
+    background-image: url(https://picsum.photos/600/300?random=2!);
+    top: 20px;
+    background-size: cover;
+}
+.image3{
+    height: 18.5em;
+    width: 25em;
+    border-radius: 5%;
+    background-image: url(https://picsum.photos/600/300?random=3!);
+    top: 20px;
+    background-size: cover;
+}
+.image4{
+    height: 18.5em;
+    width: 20.5em;
+    border-radius: 5%;
+    background-image: url(https://picsum.photos/600/300?random=4!);
+    top: 20px;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;
+    padding: 0.8em 0em;
+}
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.first:hover{
+    font-size: 1.2em;
+    color: red;
+    top:180px;
+    left: 180px;    
+    transition: all 0.1s linear;
+}
+.second:hover{
+    font-size: 1.2em;
+    top:180px;
+    left: 500px;
+    transition: all 0.1s linear;
+}
+.third:hover{
+    font-size: 1.2em;
+    top:180px;
+    left: 790px;
+    transition: all 0.1s linear;
+}
+.fourth:hover{
+    font-size: 1.2em;
+    top:180px;
+    left: 1340px;
+}
+.first:hover h1,
+.first:hover h2 {
+    color: red;
+}
+.second:hover h1,
+.second:hover h2 {
+    color: red;
+}
+.third:hover h1,
+.third:hover h2 {
+    color: red;
+}
+.fourth:hover h1,
+.fourth:hover h2 {
+    color: red;
+}
+.first:hover .image1{
+    filter: grayscale(100%);
+}
+.second:hover .image2{
+    filter: grayscale(100%);
+}
+.third:hover .image3{
+    filter: grayscale(100%);
+}
+.fourth:hover .image4{
+    filter: grayscale(100%);
+}
