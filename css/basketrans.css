@@ -1,12 +1,12 @@
-.field {
+.contender {
     width: 10%;
     height: 100%;
     margin: 0 auto;
-    top: 200px;
-    position: relative;
+    margin-top: 100px;
 }
 
 .ball {
+    display: inline-block;
     background-color: orangered;
     width: 8em;
     height: 8em;
@@ -15,9 +15,126 @@
 }
 .shadow{
     position: relative;
-    top: 500px;
+    top: 660px;
     background-color: rgb(212, 212, 212);
     width: 8em;
     height: 2em;
     border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.halfleft {
+    width: 4.5em;
+    height: 2.5em; /* as the half of the width */
+    border-top-left-radius: 4.5em;
+    border-top-right-radius: 4.5em;
+    border: .2em solid black;
+    border-bottom: 0;
+    transform: rotate(47deg);
+    position:relative;
+    top: 64px;
+}
+.halfright{
+    width: 4.5em;
+    height: 2.5em; /* as the half of the width */
+    border-top-left-radius: 4.5em;
+    border-top-right-radius: 4.5em;
+    border: .2em solid black;
+    border-bottom: 0;
+    transform: rotate(225deg);
+    position: relative;
+    left: 47px;
+    top: -24px;
+}
+.cruz1{
+    width: 8.2em;
+    height: 2.5em;
+    border: .2em solid black;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    transform: rotate(45deg);
+    position: relative;
+    left: -16px;
+    top: -30px;
+}
+.cruz2{
+        width: 8.2em;
+        height: 2.5em;
+        border: .2em solid black;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        transform: rotate(135deg);
+        position: relative;
+        top: -100px;
+        left: -15px;
+}
+
+@keyframes changing {
+    20%{
+        top: 260px;
+        transform-origin: center;
+        transform: rotate(80deg);
+    }
+    40%{
+        top: 280px;
+        transform-origin: center;
+        transform: rotate(160deg);
+    }
+    60%{
+        top: 320px;
+        transform-origin: center;
+        transform: rotate(240deg);
+    }
+    80%{
+        top: 360px;
+        transform-origin: center;
+        transform: rotate(320deg);
+    }
+    100%{
+        top: 400px;
+        transform-origin: center;
+        transform: rotate(400deg);
+    }
+}
+
+.contender:active .ball{
+    animation: changing;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    transition: all ease-in 2s;
+    margin-top: 450px;   
+}
+
+.contender:active .shadow{
+    animation: shadz;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes shadz {
+    25%{
+        scale: 1;
+        /* width: 9em;
+        height: 3em; */
+    }
+    50%{
+        scale: 0.70;
+        /* width: 6em;
+        height: 3em; */
+    }
+    75%{
+        scale: 0.45;
+        /* width: 4em;
+        height: 2em; */
+    }
+    100%{
+        scale: 0.10;
+        /* width: 0em;
+        height: 0em; */
+
+    }
 }
