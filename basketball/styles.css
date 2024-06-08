@@ -1,0 +1,37 @@
+.contender{
+    width: 20%;
+    margin: 500px auto;
+    height: 100%;
+}
+
+.ball{
+    position: relative;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    inset: 0 auto auto 0;
+    background-color: orange;
+    background-position: center;
+    animation: move-ball-left 8s, move-ball-top 0.5s, rotate-ball 8s;
+    animation-timing-function: cubic-bezier(0.8, -150, 0.8, 150);
+    animation-iteration-count: infinite;
+    }
+    @keyframes rotate-ball {
+        0%{
+            transform: rotate(-10deg);
+        }
+        100%{
+            transform: rotate(10deg);
+        }        
+    }
+    @keyframes move-ball-left {
+        100%{
+            left: 1px;
+        }
+    }
+    @keyframes move-ball-top {
+    100%{
+        top: 1.5px;
+    }        
+    }
