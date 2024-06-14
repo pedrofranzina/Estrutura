@@ -36,7 +36,7 @@ body {
     font-weight: 400;
     font-size: 40px;
     line-height: 43.96px;
-    flex-grow: 6;
+    flex-grow: 10;
     text-align: center;
 }
 
@@ -319,7 +319,7 @@ header ul li {
     gap: 40px;
 }
 
-.second .right button {
+.right button {
     margin-top: 40px;
     color: white;
     background-color: #0540F2;
@@ -330,6 +330,7 @@ header ul li {
     line-height: 26.02px;
     text-align: center;
     border-radius: 60px;
+    border-style: none;
 }
 
 .third1 {
@@ -402,13 +403,14 @@ header ul li {
     margin-top: 40px;
     color: white;
     background-color: #0540F2;
-    padding: 11.77px 66.05px 12.68px 66.05px;
+    padding: 11.77px 96.05px 12.68px 96.05px;
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 26.02px;
     text-align: center;
     border-radius: 60px;
+    border-style: none;
 }
 
 .testemonial img {
