@@ -1,33 +1,36 @@
-body{
+body {
     background-color: #eeeeee;
 }
+
 .background {
     background-image: url(/university/img/Hero.png);
     width: 100%;
     background-size: cover;
     height: 100vh;
 }
-.contender{
+
+.contender {
     width: 90%;
     margin: 0 auto;
 }
-.contender1{
+
+.contender1 {
     width: 90%;
     margin: 170px auto;
 }
 
 .overlay {
-height: 100vh;
-background-color: rgb(0, 0, 0, 0.75);
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.75);
 }
 
-.center {
+.center2 {
     margin: 0 auto;
     width: 54%;
-    
+
 }
 
-#univerz{
+#univerz {
     color: #fff;
     font-family: 'belanosima', sans-serif;
     font-weight: 400;
@@ -44,18 +47,18 @@ header ul {
     padding-top: 22px;
 }
 
-header ul li{
+header ul li {
     color: #fff;
     font-family: 'belanosima', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 26.38px;
     flex-grow: 1;
-    text-align: center;;
+    text-align: center;
 }
 
 
-header h1 {
+.center2 h1 {
     text-align: center;
     color: #fff;
     font-family: 'belanosima', sans-serif;
@@ -64,7 +67,7 @@ header h1 {
     line-height: 113.83px;
 }
 
-header h3 {
+.center2 h3 {
     padding: 40px 80px 0px 80px;
     text-align: center;
     color: #fff;
@@ -104,20 +107,23 @@ header h3 {
     font-size: 24px;
     line-height: 26.02px;
 }
-.first{
+
+.first {
     display: flex;
 
     margin-bottom: 41px;
     align-items: center;
 }
-.first h1{
+
+.first h1 {
     color: #0540F2;
     font-family: 'belanosima', sans-serif;
     font-weight: 400;
     font-size: 64px;
     font-weight: 69.06px;
 }
-.paragraph{
+
+.paragraph {
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -125,30 +131,32 @@ header h3 {
     font-weight: 24.38px;
 }
 
-.first12 .paragraph{
+.first12 .paragraph {
     padding: 40px 0px 69px 0px;
-} 
+}
 
-.first1{
+.first1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.first1 button{
+
+.first1 button {
     padding: 12px 66px;
 }
-.first12{
+
+.first12 {
     width: 30%;
 }
 
-.first13{
+.first13 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-.contender1 .students{
+.contender1 .students {
     background-color: white;
     top: 550px;
     left: 520px;
@@ -163,7 +171,8 @@ header h3 {
     align-items: center;
     justify-content: center;
 }
-.contender1 .students p{
+
+.contender1 .students p {
     color: #0540F2;
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
@@ -171,7 +180,8 @@ header h3 {
     line-height: 34.53px;
     text-align: center;
 }
-.contender1 .students h3{
+
+.contender1 .students h3 {
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -180,7 +190,7 @@ header h3 {
     text-align: center;
 }
 
-.contender1 .students .img{
+.contender1 .students .img {
     width: 30%;
     display: flex;
     flex-wrap: nowrap;
@@ -188,29 +198,31 @@ header h3 {
     padding-top: 10px;
 }
 
-.contender1 .students .stud1{
+.contender1 .students .stud1 {
     position: relative;
     z-index: 20;
 }
-.contender1 .students .stud2{
+
+.contender1 .students .stud2 {
     position: relative;
     left: -20px;
     z-index: 30;
 
 }
-.contender1 .students .stud3{
+
+.contender1 .students .stud3 {
     position: relative;
     left: -40px;
     z-index: 40;
 }
 
-.first13 .box{
+.first13 .box {
     background-color: white;
     padding: 40px;
     border-radius: 20px;
 }
 
-.first13 p{
+.first13 p {
     color: #0540F2;
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
@@ -218,7 +230,8 @@ header h3 {
     line-height: 34.53px;
     text-align: center;
 }
-.first13 h3{
+
+.first13 h3 {
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -227,12 +240,12 @@ header h3 {
     text-align: center;
 }
 
-.second2{
+.second2 {
     display: flex;
     justify-content: space-between;
 }
 
-.contender1 .second h1{
+.contender1 .second h1 {
     width: 70%;
     margin: 0 auto;
     color: #0540F2;
@@ -243,7 +256,7 @@ header h3 {
     text-align: center;
 }
 
-.contender1 .second p{
+.contender1 .second p {
     color: #111;
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
@@ -254,7 +267,8 @@ header h3 {
     width: 50%;
     margin: 0 auto;
 }
-.contender1 .third h1{
+
+.contender1 .third h1 {
     width: 70%;
     margin: 0 auto;
     color: #0540F2;
@@ -265,7 +279,7 @@ header h3 {
     text-align: center;
 }
 
-.contender1 .third p{
+.contender1 .third p {
     color: #111;
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
@@ -276,19 +290,19 @@ header h3 {
     width: 50%;
     margin: 0 auto;
 }
-.second2{
+
+.second2 {
     display: flex;
 }
 
-.right{
+.right {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
-    flex-grow: ;
 }
 
-.second2 .right ul{
+.second2 .right ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -317,13 +331,15 @@ header h3 {
     text-align: center;
     border-radius: 60px;
 }
-.third1{
+
+.third1 {
     display: flex;
     flex-wrap: wrap;
     gap: 80px;
     justify-content: space-between;
 }
-.boxes{
+
+.boxes {
     background-color: #0540F2;
     width: 25%;
     height: 182px;
@@ -335,7 +351,7 @@ header h3 {
     align-items: center;
 }
 
-.boxes .texto h1{
+.boxes .texto h1 {
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -345,7 +361,8 @@ header h3 {
     margin: 0;
     padding: 0;
 }
-.boxes .texto p{
+
+.boxes .texto p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -356,27 +373,31 @@ header h3 {
     text-align: left;
     width: 90%;
 }
-.group{
+
+.group {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-.group .imagem{
+
+.group .imagem {
     height: 100%;
     display: flex;
     justify-content: right;
     padding: 12px 20px 0px 0px;
 }
-.group .imagem{
+
+.group .imagem {
     height: 100%;
     width: 50%;
 }
 
-.third2{
+.third2 {
     margin-top: 40px;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
+
 .third2 button {
     margin-top: 40px;
     color: white;
@@ -388,4 +409,196 @@ justify-content: center;
     line-height: 26.02px;
     text-align: center;
     border-radius: 60px;
+}
+
+.testemonial img {
+    width: 100%;
+    background-size: cover;
+}
+
+.firstpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstpart .left h1 {
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 69.06px;
+    text-align: left;
+    color: #0540F2;
+    margin: 0;
+    padding: 0;
+}
+
+.firstpart .right p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #222;
+}
+
+.firstpart .right button {
+    /* display: flex;
+    text-align: center; */
+    justify-content: end;
+    border-style: none;
+    color: white;
+    background-color: #0540F2;
+    padding: 12px 28px 13px 29px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26.02px;
+    border-radius: 60px;
+    width: 40%;
+}
+
+.botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondpart {
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondpart .caixa {
+    background-color: #fff;
+    border-radius: 60px;
+    width: 398px;
+}
+
+.caixabotao {
+    color: #fff;
+    background-color: #0540F2;
+    padding: 12.5px 0px;
+    width: 180px;
+    border-radius: 19px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26.02px;
+    text-align: center;
+    border-style: none;
+    margin-bottom: 30px;
+
+}
+
+.botaotopad {
+    padding: 41px 0px 45px 49px;
+}
+
+.caixa span {
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.59px;
+    color: #222;
+}
+
+.caixa h1 {
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26.38px;
+    color: #0540F2;
+    padding: 30px 20px 30px 0px;
+}
+
+.caixa p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #222;
+}
+
+.center {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.center h1 {
+    margin: 0 auto;
+    color: #0540F2;
+    font-family: 'belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    font-weight: 69.06px;
+    text-align: center;
+}
+
+.center p {
+    color: #111;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    text-align: center;
+    margin: 43px 0px;
+}
+
+.center button {
+    color: white;
+    background-color: #0540F2;
+    border-style: none;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26.02px;
+    text-align: center;
+    border-radius: 60px;
+    padding: 12px 100px 13px 100px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #0540F2;
+    color: white;
+}
+
+footer .contender1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    margin-bottom: 0px;
+}
+footer h1{
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.34px;
+    padding-bottom: 35px;
+}
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+footer li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    padding-bottom: 24px;
+}
+footer .title{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    line-height: 26.38px;
+    padding-bottom: 40px;
+}
+.contender1 .left{
+    width: 28%;
 }
