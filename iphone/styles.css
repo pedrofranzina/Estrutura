@@ -1,0 +1,18 @@
+.container {
+    height: 100vh;
+    background: radial-gradient(73.23% 106% at 34.94% 108.33%, #F7CBFD 0%, #7758D1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone {
+    border-radius: 44px;
+    height: 844px;
+    width: 390px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+    box-shadow: -40px 60px 150px 0px #3B267BB2;
+
+}
