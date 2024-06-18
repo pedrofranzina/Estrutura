@@ -3,7 +3,7 @@ body {
 }
 
 .background {
-    background-image: url(/university/img/Hero.png);
+    background-image: url(/img/Hero.png);
     width: 100%;
     background-size: cover;
     height: 100vh;
@@ -16,6 +16,11 @@ body {
 
 .contender1 {
     width: 90%;
+    margin: 170px auto;
+}
+
+.contender11 {
+    width: 100%;
     margin: 170px auto;
 }
 
@@ -218,31 +223,43 @@ header ul li {
 
 .first13 .box {
     background-color: white;
-    padding: 40px;
+    padding: 6px 40px;
     border-radius: 20px;
 }
 
-.first13 p {
+.first13 .box .listing {
     color: #0540F2;
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 34.53px;
     text-align: center;
+    margin: 0;
+    padding-top: 30px;
 }
 
-.first13 h3 {
+.first13 .box .listing1 {
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 21.58px;
     text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
 }
 
 .second2 {
     display: flex;
     justify-content: space-between;
+}
+
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev {
+    color: white;
 }
 
 .contender1 .second h1 {
@@ -256,6 +273,32 @@ header ul li {
     text-align: center;
 }
 
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-wrapper .swiper-slide {
+    flex-direction: column;
+}
+
+.contender11 .secondd .swiper-wrapper .swiper-slide h1 {
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34.53px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.contender11 .secondd .swiper-wrapper .swiper-slide h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17.27px;
+    text-align: center;
+}
+
 .contender1 .second p {
     color: #111;
     font-family: 'Belanosima', sans-serif;
@@ -266,6 +309,51 @@ header ul li {
     padding: 40px 0px 70px 0px;
     width: 50%;
     margin: 0 auto;
+}
+
+.contender11 .secondd h1 {
+    color: #fff;
+    font-family: 'belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    font-weight: 69.06px;
+    text-align: center;
+}
+
+.contender11 .secondd p {
+    color: #fff;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.38px;
+    text-align: center;
+    padding: 40px 0px 70px 0px;
+}
+
+.slider {
+    background-color: #0540F2;
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #0540F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 145px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .contender1 .third h1 {
@@ -569,38 +657,59 @@ footer {
     color: white;
 }
 
+.secondd {
+    padding-top: 90px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.slider {
+    background-color: #0540F2;
+    color: white;
+
+}
+
 footer .contender1 {
     display: flex;
     justify-content: space-between;
     padding: 100px 0px;
     margin-bottom: 0px;
 }
-footer h1{
+
+footer h1 {
     font-family: 'Belanosima', sans-serif;
     font-weight: 400;
     font-size: 64px;
     line-height: 70.34px;
     padding-bottom: 35px;
 }
-footer p{
+
+footer p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.38px;
 }
-footer li{
+
+footer li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.38px;
     padding-bottom: 24px;
 }
-footer .title{
+
+footer .title {
     font-family: 'Belanosima', sans-serif;
     font-size: 24px;
     line-height: 26.38px;
     padding-bottom: 40px;
 }
-.contender1 .left{
+
+.contender1 .left {
     width: 28%;
+}
+
+li {
+    list-style: none;
 }

@@ -12,8 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="reset.css">
+
 </head>
 
 <body>
@@ -75,26 +77,26 @@
                 <div class="first13">
                     <div>
                         <div class="box">
-                            <p>35+</p>
-                            <h3>Course</h3>
+                            <p class="listing">35+</p>
+                            <h3 class="listing1">Course</h3>
                         </div>
                     </div>
                     <div>
                         <div class="box">
-                            <p>56+</p>
-                            <h3>Startups</h3>
+                            <p class="listing">56+</p>
+                            <h3 class="listing1">Startups</h3>
                         </div>
                     </div>
                     <div>
                         <div class="box">
-                            <p>100+</p>
-                            <h3>Language</h3>
+                            <p class="listing">100+</p>
+                            <h3 class="listing1">Language</h3>
                         </div>
                     </div>
                     <div>
                         <div class="box">
-                            <p>150+</p>
-                            <h3>Professors</h3>
+                            <p class="listing">150+</p>
+                            <h3 class="listing1">Professors</h3>
                         </div>
                     </div>
                 </div>
@@ -203,9 +205,58 @@
             </div>
 
         </div>
-        <div class="testemonial">
-            <img src="img/Testimonial.png" alt="">
+        <div class="contender11">
+            <div class="slider">
+                <div class="secondd">
+                    <h1>What Our Student Say About Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at massa sit amet nisi blandit
+                        vehicula adipiscing elit.</p>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/dave.png" alt="">
+                                <h1>Carmen Hodkiewicz</h1>
+                                <h2>Global Markets Engineer</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at massa sit amet nisi
+                                    blandit
+                                    vehicula adipiscing elit.</p>
+                            </div>
+                            <div class="swiper-slide"><img src="img/maria.PNG" alt="">
+                                <h1>Jacinta Gregório</h1>
+                                <h2>Psychologist</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at massa sit amet nisi
+                                    blandit
+                                    vehicula adipiscing elit.</p>
+                            </div>
+                            <div class="swiper-slide"><img src="img/joao.PNG" alt="">
+                                <h1>Abel Ferreira</h1>
+                                <h2>Product Manager</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at massa sit amet nisi
+                                    blandit
+                                    vehicula adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                            rewind: true,
+                            navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },
+                        });
+                    </script>
+                </div>
+            </div>
         </div>
+        </div>
+
         <div class="contender1">
             <div class="firstpart">
                 <div class="left">
@@ -305,6 +356,7 @@
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
