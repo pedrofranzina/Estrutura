@@ -1,0 +1,7 @@
+@mixin border {
+    border: 2px solid $borderColor;
+}
+
+@mixin border-radius ($curvatura) {
+    border-radius: $curvatura;
+}

@@ -1,0 +1,36 @@
+/* Cores */
+.noticias-container {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+.noticias-container .coluna-esquerda {
+  width: 400px;
+  padding: 25px 50px 25px 25px;
+  background-color: #d9d9d9;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.noticias-container .coluna-esquerda a {
+  text-decoration: none;
+}
+.noticias-container .coluna-esquerda li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+.noticias-container .coluna-esquerda ul {
+  padding: 0;
+  margin: 0;
+}
+.noticias-container .coluna-direita {
+  padding: 0 25px;
+  background-color: #F5F5F5;
+  border: 2px solid black;
+}
+.noticias-container .coluna-direita a {
+  color: red;
+  text-decoration: none;
+}
+.noticias-container .espacamento {
+  height: 300px;
+}/*# sourceMappingURL=styles.css.map */
