@@ -1,0 +1,89 @@
+@import 'mixins';
+@import 'colors';
+
+body {
+    background-color: #ddd;
+}
+
+.contender {
+    @include display;
+}
+
+.buttons {
+    @include display;
+    align-items: center;
+
+    .buttonleft {
+        @include inter;
+        @include buttonleft;
+        background-color: #7749f8;
+
+        &:disabled {
+            @include disabled;
+        }
+
+        &:hover {
+            background-color: #EF5DA8;
+            ;
+        }
+
+        &:active {
+            background-color: #7879f1;
+        }
+    }
+
+    .buttonright {
+        @include inter;
+        @include buttonright;
+        background-color: #082692;
+
+        &:disabled {
+            @include disabled;
+        }
+
+        &:hover {
+            background-color: #0A6BDD;
+        }
+
+        &:active {
+            background-color: #1D88C3;
+            ;
+        }
+    }
+
+}
+
+/* 2nd exercise */
+
+.buttons1 {
+    @include display1;
+
+    button {
+        @include inter;
+        @include buttonright;
+
+        &.blue {
+            background-color: #082692;
+        }
+
+        &.purple {
+            background-color: #4201FA;
+        }
+
+        &.wine {
+            background-color: #920873;
+        }
+
+        &.green {
+            background-color: #3C9208;
+        }
+
+        &.red {
+            background-color: #DD0A0A;
+        }
+
+        &.ocean {
+            background-color: #1D88C3;
+        }
+    }
+}
