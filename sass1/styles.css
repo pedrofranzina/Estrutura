@@ -1,0 +1,89 @@
+body {
+  background-color: #EAEAEA;
+}
+
+.belanosima-regular {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.belanosima-semibold {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.belanosima-bold {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  background-color: #0540F2;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  padding: 3rem 0;
+}
+footer h2 {
+  font-size: 4rem;
+}
+footer h3 {
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+footer ul li {
+  padding-bottom: 10px;
+}
+
+.article-list {
+  padding: 3rem 0;
+}
+.article-list h2 {
+  font-size: 4rem;
+  color: #0540F2;
+}
+.article-list .box {
+  border-radius: 50px;
+  background-color: #FFFFFF;
+}
+.article-list .box .box-bg {
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.article-list .box .box-content {
+  padding: 3rem;
+}
+.article-list .box.box-black {
+  background-color: black;
+  color: white;
+}
+
+button {
+  color: #FFFFFF;
+  background-color: #0540F2;
+  border-radius: 50px;
+  padding: 0.5rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-style: none;
+  transition: all 0.2s;
+}
+button:hover {
+  background-color: #02185c;
+}/*# sourceMappingURL=styles.css.map */

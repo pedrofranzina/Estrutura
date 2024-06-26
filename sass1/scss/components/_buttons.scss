@@ -1,0 +1,15 @@
+button {
+  color: $corSecundaria;
+  background-color: $corPrimaria;
+  border-radius: 50px;
+  padding: 0.5rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-style: none;
+  transition: all 0.200s;
+
+  &:hover {
+    background-color: darken($corPrimaria, 30%);
+
+  }
+}

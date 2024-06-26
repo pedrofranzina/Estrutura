@@ -1,0 +1,27 @@
+footer {
+  background-color: $corPrimaria;
+  color: $corSecundaria;
+  font-size: 1.1rem;
+  @include espacamento-interior-sections;
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding-bottom: 10px;
+    }
+  }
+
+
+}

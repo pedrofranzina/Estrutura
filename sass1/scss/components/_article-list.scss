@@ -1,0 +1,36 @@
+.article-list {
+
+  @include espacamento-interior-sections;
+
+  h2 {
+    font-size: 4rem;
+    color: $corPrimaria;
+  }
+
+  .box {
+
+    border-radius: 50px;
+    background-color: $corSecundaria;
+
+
+    .box-bg {
+      height: 280px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-top-right-radius: 50px;
+      border-top-left-radius: 50px;
+    }
+
+    .box-content {
+      padding: 3rem;
+    }
+
+    &.box-black {
+      background-color: black;
+      color: white;
+    }
+
+  }
+
+
+}

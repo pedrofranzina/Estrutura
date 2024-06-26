@@ -1,0 +1,10 @@
+@mixin belanosima-regular {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@mixin espacamento-interior-sections {
+  padding: 3rem 0;
+}

@@ -1,0 +1,19 @@
+.belanosima-regular {
+  @include belanosima-regular;
+}
+
+.belanosima-semibold {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.belanosima-bold {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  @include belanosima-regular;
+}
