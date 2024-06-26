@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     border-radius: 34px;
     box-shadow: 0px 4px 4px 0px #00000040;
-    width: 60%;
+    width: 50%;
 
     &-left {
         @include flex;
@@ -109,35 +109,35 @@ h3 {
 #humidade {
     background-image: url(../img/Humidade.png);
     background-repeat: no-repeat;
-
+    background-position: 10% 50%;
 }
 
 #vento {
     background-image: url(../img/Vento.png);
     background-repeat: no-repeat;
-
+    background-position: 10% 50%;
 }
 
 #bussula {
     background-image: url(../img/bussula.png);
     background-repeat: no-repeat;
-
+    background-position: 10% 50%;
 }
 
 #visibilidade {
     background-image: url(../img/Visibilidade.png);
     background-repeat: no-repeat;
-
+    background-position: 10% 50%;
 }
 
 #nascerdosol {
     background-image: url(../img/nascerdosol.png);
     background-repeat: no-repeat;
+    background-position: 10% 50%;
 }
 
 #pordosol {
     background-image: url(../img/pordosol.png);
     background-repeat: no-repeat;
     background-position: 10% 50%;
-
 }
