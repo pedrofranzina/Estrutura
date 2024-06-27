@@ -194,4 +194,14 @@ h3 {
   background-image: url(../img/pordosol.png);
   background-repeat: no-repeat;
   background-position: 10% 50%;
+}
+
+body .weather:hover .dark-mode-font {
+  color: #fff;
+}
+body .weather:hover .dark-mode {
+  background-color: #434242;
+}
+body .weather:hover .darker-mode {
+  background-color: #2F2E2E;
 }/*# sourceMappingURL=styles.css.map */

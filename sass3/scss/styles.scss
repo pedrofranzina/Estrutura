@@ -201,3 +201,21 @@ h3 {
     background-repeat: no-repeat;
     background-position: 10% 50%;
 }
+
+body {
+
+    .weather:hover {
+
+        .dark-mode-font {
+            color: #fff;
+        }
+
+        .dark-mode {
+            background-color: #434242;
+        }
+
+        .darker-mode {
+            background-color: #2F2E2E;
+        }
+    }
+}
