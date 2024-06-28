@@ -114,6 +114,7 @@
     width: 100%;
   }
   .container .third {
+    height: 446px;
     gap: 20px;
   }
   .container .third .D {
@@ -149,4 +150,126 @@
     background: #D9055E;
     width: 50%;
   }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0;
+    gap: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .container .A {
+    display: inline;
+    text-align: center;
+    background: #F0E9D5;
+    width: 100%;
+    color: #000;
+  }
+  .container .B {
+    display: inline;
+    text-align: center;
+    background: #D90505;
+    width: 100%;
+  }
+  .container .C {
+    display: inline;
+    text-align: center;
+    background: #8E1289;
+    width: 100%;
+  }
+  .container .D {
+    display: inline;
+    text-align: center;
+    background: #0534D9;
+    width: 100%;
+  }
+  .container .E {
+    display: inline;
+    text-align: center;
+    background: #036761;
+    width: 100%;
+  }
+  .container .F {
+    display: inline;
+    text-align: center;
+    background: #9505D9;
+    width: 100%;
+  }
+  .container .G {
+    display: inline;
+    text-align: center;
+    background: #D99E05;
+    width: 100%;
+  }
+  .container .H {
+    display: inline;
+    text-align: center;
+    background: #D9055E;
+    width: 100%;
+  }
+}
+/*INDEX1*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div {
+  height: 223px;
+  margin-bottom: 2%;
+  text-align: center;
+  background-color: blue;
+  display: inline;
+  text-align: center;
+}
+
+.AA {
+  width: 80%;
+  background-color: #D99E05;
+}
+
+.BB {
+  width: 18%;
+  background: #D90505;
+}
+
+.CC {
+  width: 100%;
+  background: #0AD905;
+}
+
+.DD {
+  width: 29%;
+  background: #0534D9;
+}
+
+.EE {
+  width: 49%;
+  background: #0580D9;
+}
+
+.FF {
+  width: 19%;
+  background: #9505D9;
+}
+
+.GG {
+  width: 28%;
+  background: #D99E05;
+}
+
+.HH {
+  width: 70%;
+  background: #D9055E;
 }/*# sourceMappingURL=styles.css.map */

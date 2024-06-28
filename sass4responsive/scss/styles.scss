@@ -86,7 +86,7 @@
     align-content: center;
 }
 
-@media only screen and (max-width: 768px) {}
+
 
 @media only screen and (max-width: 1440px) {
     .container {
@@ -125,6 +125,7 @@
         }
 
         .third {
+            height: 446px;
             gap: 20px;
 
             .D {
@@ -143,6 +144,7 @@
                 @include align;
                 background: #9505D9;
                 width: 100%;
+
             }
         }
 
@@ -162,4 +164,128 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+        gap: 20px;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .A {
+            @include align;
+            background: #F0E9D5;
+            width: 100%;
+            color: #000;
+        }
+
+        .B {
+            @include align;
+            background: #D90505;
+            width: 100%;
+        }
+
+        .C {
+            @include align;
+            background: #8E1289;
+            width: 100%;
+        }
+
+        .D {
+            @include align;
+            background: #0534D9;
+            width: 100%;
+        }
+
+        .E {
+            @include align;
+            background: #036761;
+            width: 100%;
+        }
+
+        .F {
+            @include align;
+            background: #9505D9;
+            width: 100%;
+        }
+
+        .G {
+            @include align;
+            background: #D99E05;
+            width: 100%;
+        }
+
+        .H {
+            @include align;
+            background: #D9055E;
+            width: 100%;
+        }
+
+    }
+}
+
+/*INDEX1*/
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div {
+    height: 223px;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: blue;
+    @include align;
+}
+
+.AA {
+    width: 80%;
+    background-color: #D99E05;
+}
+
+.BB {
+    width: 18%;
+    background: #D90505;
+}
+
+.CC {
+    width: 100%;
+    background: #0AD905;
+}
+
+.DD {
+    width: 29%;
+    background: #0534D9;
+}
+
+.EE {
+    width: 49%;
+    background: #0580D9;
+}
+
+.FF {
+    width: 19%;
+    background: #9505D9;
+}
+
+.GG {
+    width: 28%;
+    background: #D99E05;
+}
+
+.HH {
+    width: 70%;
+    background: #D9055E;
 }
