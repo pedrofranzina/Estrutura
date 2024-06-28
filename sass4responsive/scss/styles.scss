@@ -1,0 +1,165 @@
+@import 'mixins';
+
+.container {
+    margin: 0;
+    gap: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+
+    .first {
+        gap: 20px;
+
+        .A {
+            @include align;
+            background-color: #D99E05;
+            width: 75%;
+        }
+
+        .B {
+            @include align;
+            background: #D90505;
+            width: 25%;
+        }
+    }
+
+    .second {
+        gap: 20px;
+
+        .C {
+            @include align;
+            background: #0AD905;
+            width: 100%;
+        }
+    }
+
+    .third {
+        gap: 20px;
+
+        .D {
+            @include align;
+            background: #0534D9;
+            width: 30%;
+        }
+
+        .E {
+            @include align;
+            background: #0580D9;
+            width: 50%;
+        }
+
+        .F {
+            @include align;
+            background: #9505D9;
+            width: 20%;
+        }
+    }
+
+    .fourth {
+        gap: 20px;
+
+        .G {
+            @include align;
+            background: #D99E05;
+            width: 22%;
+        }
+
+        .H {
+            @include align;
+            background: #D9055E;
+            width: 78%;
+        }
+    }
+}
+
+.container div {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116.18px;
+    height: 223px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 1440px) {
+    .container {
+        margin: 0;
+        gap: 20px;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+
+        .first {
+            gap: 20px;
+
+            .A {
+                @include align;
+                background: #F0E9D5;
+                width: 50%;
+                color: #000;
+            }
+
+            .B {
+                @include align;
+                background: #D90505;
+                width: 50%;
+            }
+        }
+
+        .second {
+            gap: 20px;
+
+            .C {
+                @include align;
+                background: #8E1289;
+                width: 100%;
+            }
+        }
+
+        .third {
+            gap: 20px;
+
+            .D {
+                @include align;
+                background: #0534D9;
+                width: 40%;
+            }
+
+            .E {
+                @include align;
+                background: #036761;
+                width: 60%;
+            }
+
+            .F {
+                @include align;
+                background: #9505D9;
+                width: 100%;
+            }
+        }
+
+        .fourth {
+            gap: 20px;
+
+            .G {
+                @include align;
+                background: #D99E05;
+                width: 50%;
+            }
+
+            .H {
+                @include align;
+                background: #D9055E;
+                width: 50%;
+            }
+        }
+    }
+}
