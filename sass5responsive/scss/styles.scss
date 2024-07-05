@@ -1,6 +1,6 @@
 $smartphone: 768px;
-$notebook: 1000px;
-$desktop: 1441px;
+$notebook: 1024px;
+$desktop: 1440px;
 
 body,
 html {
@@ -8,6 +8,11 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .stats {
@@ -124,7 +129,7 @@ html {
 
 
             @media screen and (min-width: $notebook) {
-                width: 40%;
+                width: 35%;
             }
 
             @media screen and (min-width: $desktop) {
@@ -132,7 +137,7 @@ html {
             }
 
 
-            .box-img {
+            .service-img {
                 padding: 3rem 0 0 0;
             }
 
