@@ -6,6 +6,11 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .stats {
   width: 90%;
   margin: 0 auto;
@@ -85,8 +90,8 @@ html {
   box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1019607843);
   border-radius: 24px;
 }
-.stats2 .row2 .box img {
-  padding: 3rem 16rem 2rem 16rem;
+.stats2 .row2 .box .service-img {
+  padding: 3rem 0 0 0;
 }
 .stats2 .row2 .box h2 {
   font-weight: 500;
